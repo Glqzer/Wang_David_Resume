@@ -1,0 +1,188 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://github.com/Glqzer/}{\Large David Wang}} & Email : \href{mailto:davidlwang2004@gmail.com}{davidlwang2004@gmail.com}\\
+  \href{http://www.github.com/Glqzer/}{http://www.github.com/Glqzer} & Mobile : \href{tel:+15853511507}{+1-585-351-1507} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Johns Hopkins University}{Baltimore, MD}
+      {B.S. in Computer Science, B.S. in Applied Mathematics and Statistics}{2026}
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+ \section{Applicable Skills}
+{C++, C, Java, JavaScript, Python, Go, SQL, OCaml, HTML, CSS, Swift, Git, LaTeX, AWS (Redshift)}
+
+%-----------APPLIED EXPERIENCE-----------------
+\section{Applied Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Johns Hopkins University}{Baltimore, MD}
+      {Marketing Data Analyst}{March 2024 - Present}
+      \resumeItemListStart
+        \resumeItem{Data Collection}
+          {Integratated data from CRM systems, website analytics, and social media platforms to create a comprehensive view of consumer behavior and to increase campaign engagements by 40\%. }
+        \resumeItem{Performance Metrics}
+          {Collaborated on A/B testing to evaluate effective strategies and identify optimal elements in campaigns.}
+        \resumeItem{Customer Prediction Models}
+          {Built predictive models for customer churn prediction and utilized pre-trained models for text classification and translation.}
+        
+      \resumeItemListEnd
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Personal Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Apple PSI Protocol}
+      {Implementation of Apple's private set intersection protocol for detecting CSAM image material.}
+    \resumeSubItem{Healthcare AI iOS Application}
+      {Health application using ChatGPT AI and Google Maps API to search symptoms, find hospitals, pharmacies, and more.}
+  \resumeSubHeadingListEnd
+
+\section{Class-Related Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Cache Simulator}
+      {Simulation to evaluate how a variety of cache configurations perform on given memory traces from different benchmark programs.}
+    \resumeSubItem{Classical IRC Chat System}
+      {Developed a chat client program that communicates synchronously with a server in real-time.}
+  \resumeSubHeadingListEnd
+
+%-----------Other Work Experience-----------------
+\section{Other Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Johns Hopkins University Office of Undergraduate Admissions}{Baltimore, MD}
+      {Admissions Supervisor and Coordinator}{January 2023 - Present}
+      \resumeItemListStart
+        \resumeItem{Tour Guide Training and Evaluation}
+          {Trained and evaluated all tour guides to increase positive tour reviews by 60\% and equipped new hires with tools for answering tough questions.}
+        \resumeItem{Event Coordination and Organization}
+          {Communicated and organized vendors, class visits, and residence hall tours for Prospective Student and Admitted Student Visit Days.}      
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Starbucks Coffee Company}{Baltimore, MD}
+      {Barista}{July 2023 - Present}
+      \resumeItemListStart
+        \resumeItem{Precision in a Fast-Paced Environment}
+          {Worked in a fast-paced environment where accuracy and precision were as critical as customer support and connection, helping create the "Third Place" and contributing to a 20 point increase in Customer Connection Scores.}
+        \resumeItem{Multi-Tasking and Collaboration}
+          {Managed multiple roles and multi-tasked in a high stress environment, experienced in teamwork and collaboration.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+  
+
+%--------PROGRAMMING SKILLS------------
+\section{Other}
+  \resumeSubHeadingListStart
+     \resumeSubItem{Roles}
+      {Eclectics Dance Team Marketing and Technical Operations Chair}
+    \resumeSubItem{Languages}
+      {English (First Language), Chinese, Korean, Spanish}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
