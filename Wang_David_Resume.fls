@@ -1,8 +1,8 @@
-PWD /Users/wubble/Library/CloudStorage/GoogleDrive-davidlwang2004@gmail.com/My Drive/Resume
+PWD /Users/wubble/Library/CloudStorage/GoogleDrive-davidw.mp3@gmail.com/My Drive/Resume
 INPUT /usr/local/texlive/2025basic/texmf.cnf
 INPUT /usr/local/texlive/2025basic/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025basic/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/wubble/Library/CloudStorage/GoogleDrive-davidlwang2004@gmail.com/My Drive/Resume/Wang_David_Resume.tex
+INPUT /Users/wubble/Library/CloudStorage/GoogleDrive-davidw.mp3@gmail.com/My Drive/Resume/Wang_David_Resume.tex
 OUTPUT Wang_David_Resume.log
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
